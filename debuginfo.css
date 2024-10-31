@@ -1,0 +1,100 @@
+/* 
+    Document   : debuginfo
+    Created on : 19/10/2009, 03:14:21 PM
+    Author     : kaziel
+    Description:
+        Stylesheet used by the debuginfo plugin.
+*/
+
+.panel {
+position: absolute;
+top: 50px;
+left: 0;
+display: none;
+background: #000000;
+border:1px solid #111111;
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+-webkit-border-bottom-right-radius: 20px;
+width: 500px;
+height: auto;
+padding: 30px 30px 30px 130px;
+filter: alpha(opacity=85);
+opacity: .85;
+text-align: left;
+color: #fff;
+z-index: 10;
+}
+.panel h2,h3 {
+    color: #fff;
+}
+
+a.trigger{
+text-decoration: none;
+font-size: 15px;
+letter-spacing:-1px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:#fff;
+padding: 15px 20px 15px 15px;
+font-weight: 700;
+background:#333333;
+border:1px solid #444444;
+-moz-border-radius-topright: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-bottom-left-radius: 0px;
+display: block;
+z-index:20;
+}
+
+a.constants {
+position: absolute;
+top: 10px; left: 0;
+}
+a.pos-1 {
+position: absolute;
+top: 70px; left: 0;
+
+}
+
+a.pos-2 {
+position: absolute;
+top: 130px; left: 0;
+
+}
+
+a.pos-3 {
+position: absolute;
+top: 190px; left: 0;
+
+}
+a.trigger:hover{
+/*position: absolute;*/
+text-decoration: none;
+/*top: 80px; left: 0;*/
+font-size: 16px;
+letter-spacing:-1px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:#fff;
+padding: 15px 20px 15px 20px;
+font-weight: 700;
+background:#222222;
+border:1px solid #444444;
+-moz-border-radius-topright: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-bottom-left-radius: 0px;
+display: block;
+}
+
+a.active.trigger {
+background:#222222;
+}
+
+
+
